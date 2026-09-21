@@ -27,6 +27,9 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Build website from managed content
+        run: node scripts/build.mjs
+
       - name: Upload static website
         uses: actions/upload-pages-artifact@v3
         with:

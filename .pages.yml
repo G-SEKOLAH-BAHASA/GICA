@@ -1,0 +1,133 @@
+media:
+  input: public/assets/uploads
+  output: assets/uploads
+  rename: safe
+  extensions: [png, jpg, jpeg, webp, gif]
+
+settings:
+  hide: true
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      update: "content: update {path} via CMS"
+      create: "content: add {path} via CMS"
+      delete: "content: remove {path} via CMS"
+
+content:
+  - name: site
+    label: GICA 網站內容
+    type: file
+    path: public/content/site.json
+    format: json
+    fields:
+      - name: seo
+        label: 搜尋與分享資訊
+        type: object
+        fields:
+          - { name: title, label: 網站標題, type: string, required: true }
+          - { name: description, label: 網站摘要, type: text, required: true }
+      - name: home
+        label: 首頁主視覺
+        type: object
+        fields:
+          - { name: eyebrow, label: 小標, type: string }
+          - { name: title, label: 主標題, type: string, required: true }
+          - { name: lead, label: 首頁介紹, type: text, required: true }
+          - { name: note, label: 補充短句, type: string }
+          - { name: image, label: 主視覺圖片, type: image, required: true }
+          - { name: imageAlt, label: 圖片替代文字, type: string, required: true, description: 請描述照片內容，供視障讀者使用。 }
+          - name: primaryCta
+            label: 主要按鈕
+            type: object
+            fields:
+              - { name: label, label: 按鈕文字, type: string }
+              - { name: url, label: 網址, type: string }
+          - name: secondaryCta
+            label: 次要按鈕
+            type: object
+            fields:
+              - { name: label, label: 按鈕文字, type: string }
+              - { name: url, label: 網址, type: string }
+      - name: about
+        label: 關於 GICA
+        type: object
+        fields:
+          - { name: eyebrow, label: 小標, type: string }
+          - { name: title, label: 標題, type: string }
+          - { name: description, label: 介紹, type: text }
+      - name: school
+        label: Bahasa 語言學校
+        type: object
+        fields:
+          - { name: eyebrow, label: 小標, type: string }
+          - { name: title, label: 標題, type: string }
+          - { name: description, label: 介紹, type: text }
+      - name: care
+        label: 全人關懷
+        type: object
+        fields:
+          - { name: eyebrow, label: 小標, type: string }
+          - { name: title, label: 標題, type: string }
+          - { name: description, label: 介紹, type: text }
+      - name: featuredStory
+        label: 精選學員故事
+        type: object
+        fields:
+          - { name: eyebrow, label: 小標, type: string }
+          - { name: title, label: 標題, type: string }
+          - { name: quote, label: 引言, type: text }
+          - { name: summary, label: 故事摘要, type: text, description: 只能放已去識別化且取得公開授權的內容。 }
+          - { name: image, label: 圖片, type: image }
+          - { name: imageAlt, label: 圖片替代文字, type: string }
+          - { name: privacyNote, label: 隱私與授權註記, type: text }
+      - name: news
+        label: 最新活動／消息
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: 標題, type: string, required: true }
+          - { name: date, label: 日期, type: date, required: true }
+          - { name: summary, label: 摘要, type: text }
+          - { name: image, label: 圖片, type: image }
+          - { name: url, label: 詳細連結, type: string }
+      - name: gallery
+        label: 照片集
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: 標題, type: string }
+          - { name: caption, label: 說明, type: string }
+          - { name: image, label: 圖片, type: image, required: true }
+          - { name: alt, label: 圖片替代文字, type: string, required: true }
+      - name: videos
+        label: 影片
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: 標題, type: string, required: true }
+          - { name: url, label: YouTube 網址, type: string, required: true, description: 請貼 YouTube 網址，不要上傳大型影片檔。 }
+          - { name: description, label: 說明, type: text }
+      - name: ctas
+        label: 行動按鈕與連結
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{label}" }
+        fields:
+          - { name: audience, label: 對象, type: string }
+          - { name: label, label: 主文字, type: string }
+          - { name: linkText, label: 連結文字, type: string }
+          - { name: url, label: 網址, type: string }
+      - name: contact
+        label: 聯絡資訊
+        type: object
+        fields:
+          - { name: organization, label: 組織名稱, type: string }
+          - { name: tagline, label: 組織短句, type: text }
+          - { name: email, label: 公開電子郵件, type: string }
+          - { name: websiteLabel, label: 網站連結文字, type: string }
+          - { name: websiteUrl, label: 網站網址, type: string }
