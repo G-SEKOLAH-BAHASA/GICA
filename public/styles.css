@@ -13,6 +13,8 @@
   --radius: 22px;
 }
 
+.cms-card-grid,.cms-video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem}.cms-card,.cms-video{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 12px 35px rgba(30,42,36,.1)}.cms-card img{width:100%;aspect-ratio:16/9;object-fit:cover}.cms-card-body,.cms-video h3,.cms-video p{margin-left:1.25rem;margin-right:1.25rem}.cms-card-body{padding:1.25rem 0}.cms-card time{font-size:.85rem;color:#a33}.cms-card a{color:#8f231e;font-weight:700}.cms-video iframe{width:100%;aspect-ratio:16/9;border:0}.cms-video p{padding-bottom:1.25rem}@media(max-width:760px){.cms-card-grid,.cms-video-grid{grid-template-columns:1fr}}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--paper); font: 400 1rem/1.75 "Noto Sans TC", sans-serif; }
