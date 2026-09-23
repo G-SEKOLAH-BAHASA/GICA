@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "GICA 巴哈薩語言學校｜從語言開始，陪伴完整生活",
+    "title": "早安!GICA 巴哈薩語言學校｜從語言開始，陪伴完整生活",
     "description": "GICA 巴哈薩語言學校：從語言學習開始，陪伴印尼移工在臺灣安心生活、持續成長。"
   },
   "home": {
@@ -10,8 +10,14 @@
     "note": "20 個小班，深度陪伴，不盲目擴張。",
     "image": "assets/gica-classroom.jpg",
     "imageAlt": "GICA 教師與印尼學員在實體語言班合影",
-    "primaryCta": { "label": "認識語言學校", "url": "#school" },
-    "secondaryCta": { "label": "成為志工", "url": "#join" }
+    "primaryCta": {
+      "label": "認識語言學校",
+      "url": "#school"
+    },
+    "secondaryCta": {
+      "label": "成為志工",
+      "url": "#join"
+    }
   },
   "about": {
     "eyebrow": "OUR JOURNEY",
@@ -47,15 +53,44 @@
     }
   ],
   "gallery": [
-    { "title": "文化被看見", "caption": "印尼國慶與文化交流活動", "image": "assets/gica-culture.jpg", "alt": "印尼文化表演者穿著傳統服飾合影" },
-    { "title": "努力被肯定", "caption": "語言才藝活動與學習成果", "image": "assets/gica-achievement.jpg", "alt": "學員在舞台上領取獎狀與獎牌" }
+    {
+      "title": "文化被看見",
+      "caption": "印尼國慶與文化交流活動",
+      "image": "assets/gica-culture.jpg",
+      "alt": "印尼文化表演者穿著傳統服飾合影"
+    },
+    {
+      "title": "努力被肯定",
+      "caption": "語言才藝活動與學習成果",
+      "image": "assets/gica-achievement.jpg",
+      "alt": "學員在舞台上領取獎狀與獎牌"
+    }
   ],
-  "videos": [],
   "ctas": [
-    { "audience": "我是印尼朋友", "label": "報名語言課程", "linkText": "我要學習 →", "url": "https://gica.org.tw/" },
-    { "audience": "我想貢獻時間", "label": "加入陪伴團隊", "linkText": "成為志工 →", "url": "https://gica.org.tw/" },
-    { "audience": "我是組織或企業", "label": "提出合作計畫", "linkText": "聯絡我們 →", "url": "mailto:gica.taichung@gmail.com" },
-    { "audience": "我想支持長期改變", "label": "支持 GICA", "linkText": "認識捐款 →", "url": "https://gica.org.tw/" }
+    {
+      "audience": "我是印尼朋友",
+      "label": "報名語言課程",
+      "linkText": "我要學習 →",
+      "url": "https://gica.org.tw/"
+    },
+    {
+      "audience": "我想貢獻時間",
+      "label": "加入陪伴團隊",
+      "linkText": "成為志工 →",
+      "url": "https://gica.org.tw/"
+    },
+    {
+      "audience": "我是組織或企業",
+      "label": "提出合作計畫",
+      "linkText": "聯絡我們 →",
+      "url": "mailto:gica.taichung@gmail.com"
+    },
+    {
+      "audience": "我想支持長期改變",
+      "label": "支持 GICA",
+      "linkText": "認識捐款 →",
+      "url": "https://gica.org.tw/"
+    }
   ],
   "contact": {
     "organization": "社團法人臺中市國際關懷印尼協會",
