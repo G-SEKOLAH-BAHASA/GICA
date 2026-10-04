@@ -122,6 +122,22 @@ content:
           - { name: label, label: 主文字, type: string }
           - { name: linkText, label: 連結文字, type: string }
           - { name: url, label: 網址, type: string }
+      - name: social
+        label: 社群連結
+        type: object
+        fields:
+          - name: youtube
+            label: YouTube
+            type: object
+            fields:
+              - { name: label, label: 顯示文字, type: string }
+              - { name: url, label: YouTube 頻道網址, type: string }
+          - name: facebook
+            label: Facebook
+            type: object
+            fields:
+              - { name: label, label: 顯示文字, type: string }
+              - { name: url, label: Facebook 網址, type: string }
       - name: contact
         label: 聯絡資訊
         type: object
