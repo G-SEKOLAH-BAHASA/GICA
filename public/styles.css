@@ -192,3 +192,5 @@ footer > small { grid-column: 1/-1; }
 
 .language-toggle{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:.55rem .8rem;font:700 .8rem/1 "Source Sans 3",sans-serif;cursor:pointer;white-space:nowrap}.language-toggle:hover,.language-toggle:focus-visible{border-color:var(--red);color:var(--red)}.language-toggle[data-language="id"] .lang-id,.language-toggle:not([data-language="id"]) .lang-zh{color:var(--red)}
 @media(max-width:980px){.language-toggle{margin-left:auto}.site-header{gap:.75rem}}
+
+.social{background:var(--ivory)}.social-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem}.social-card{min-height:180px;padding:2rem;display:flex;align-items:flex-end;border-radius:var(--radius);text-decoration:none;color:white;font-size:1.25rem;font-weight:800;box-shadow:var(--shadow);transition:.2s ease}.social-card:hover{transform:translateY(-5px)}.social-card.youtube{background:linear-gradient(135deg,var(--red-dark),var(--red))}.social-card.facebook{background:linear-gradient(135deg,#173c72,#2765ad)}@media(max-width:620px){.social-grid{grid-template-columns:1fr}.social-card{min-height:140px}}
