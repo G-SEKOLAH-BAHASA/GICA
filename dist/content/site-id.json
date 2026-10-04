@@ -1,0 +1,103 @@
+{
+  "seo": {
+    "title": "GICA Sekolah Bahasa | Belajar Bahasa, Menjalani Hidup dengan Lebih Baik",
+    "description": "GICA Sekolah Bahasa mendampingi pekerja migran Indonesia di Taiwan melalui pembelajaran bahasa, dukungan kehidupan, pemahaman budaya, dan pengembangan diri."
+  },
+  "home": {
+    "eyebrow": "GICA × BAHASA LANGUAGE SCHOOL",
+    "title": "Berawal dari belajar bahasa, kami mendampingi kehidupan secara utuh.",
+    "lead": "Sejak 2015, GICA hadir dalam kisah hidup pekerja migran Indonesia. Pada 2023, BAHASA Language School mulai dirintis. Kini bahasa menjadi pintu masuk untuk menghubungkan dukungan kehidupan, pemahaman budaya, dan pengembangan talenta.",
+    "note": "20 kelas kecil. Pendampingan mendalam, bukan sekadar memperbesar skala.",
+    "image": "assets/gica-classroom.jpg",
+    "imageAlt": "Pengajar GICA dan siswa Indonesia berfoto bersama di kelas bahasa",
+    "primaryCta": {
+      "label": "Kenali Sekolah Bahasa",
+      "url": "#school"
+    },
+    "secondaryCta": {
+      "label": "Jadi Relawan",
+      "url": "#join"
+    }
+  },
+  "about": {
+    "eyebrow": "PERJALANAN KAMI",
+    "title": "Dari kegiatan kepedulian menjadi sekolah yang mendampingi manusia",
+    "description": "Inti GICA bukan sekadar memberikan layanan, tetapi membangun hubungan yang dapat diandalkan dalam jangka panjang bersama teman-teman Indonesia."
+  },
+  "school": {
+    "eyebrow": "EKOSISTEM BAHASA",
+    "title": "Satu sekolah bahasa, empat sistem yang saling mendukung",
+    "description": "Kelas hanyalah pintu masuk. Pembelajaran dapat berlanjut karena ada jaringan pengajar, materi, wali kelas, pendamping belajar, dan dukungan kehidupan."
+  },
+  "care": {
+    "eyebrow": "PENDAMPINGAN MENYELURUH",
+    "title": "Setiap bulan, membahas hal penting di luar kelas",
+    "description": "Lokakarya terbuka bagi seluruh siswa, singkat dan dapat diikuti per sesi. Program ini melengkapi kelas bahasa dua tahun dan program pengembangan diri setelah lulus."
+  },
+  "featuredStory": {
+    "eyebrow": "SUARA SISWA · KARYA SISWA",
+    "title": "Menjadi Tulang Punggung: Seorang Gadis yang Menopang Keluarganya",
+    "quote": "Ada orang yang bahkan belum sempat bermimpi, tetapi sudah lebih dulu belajar kerasnya kehidupan.",
+    "summary": "Ia tumbuh di sebuah desa kecil di Jawa Timur. Setelah kehilangan kedua orang tuanya, ia berhenti sekolah untuk merawat tiga adiknya, bekerja keras, lalu datang ke Taiwan. Kisah ini mengingatkan kami bahwa setiap siswa membawa tanggung jawab keluarga, kehilangan, ketangguhan, dan mimpi yang belum dilepaskan.",
+    "image": "assets/gica-student-visit.jpg",
+    "imageAlt": "Staf GICA melakukan kunjungan dan memeluk siswa",
+    "privacyNote": "Cuplikan karya siswa telah disunting untuk melindungi identitas. Foto hanya mendokumentasikan kegiatan pendampingan GICA; orang dalam foto bukan berarti penulis kisah ini."
+  },
+  "news": [
+    {
+      "title": "Pendaftaran BAHASA Language School Masih Dibuka",
+      "date": "2026-09-01",
+      "summary": "Teman-teman Indonesia yang ingin terus belajar Mandarin dan Taiwanese dipersilakan bergabung dalam kelas kecil kami.",
+      "image": "assets/gica-classroom.jpg",
+      "url": "https://gica.org.tw/"
+    }
+  ],
+  "gallery": [
+    {
+      "title": "Budaya Terlihat",
+      "caption": "Perayaan Kemerdekaan Indonesia dan pertukaran budaya",
+      "image": "assets/gica-culture.jpg",
+      "alt": "Peserta pertunjukan budaya Indonesia berfoto dengan pakaian tradisional"
+    },
+    {
+      "title": "Usaha Diapresiasi",
+      "caption": "Kegiatan bahasa, bakat, dan hasil belajar",
+      "image": "assets/gica-achievement.jpg",
+      "alt": "Siswa menerima sertifikat dan medali di atas panggung"
+    }
+  ],
+  "videos": [],
+  "ctas": [
+    {
+      "audience": "Saya teman Indonesia",
+      "label": "Daftar Kelas Bahasa",
+      "linkText": "Saya ingin belajar →",
+      "url": "https://gica.org.tw/"
+    },
+    {
+      "audience": "Saya ingin menyumbangkan waktu",
+      "label": "Bergabung dengan Tim Pendamping",
+      "linkText": "Jadi relawan →",
+      "url": "https://gica.org.tw/"
+    },
+    {
+      "audience": "Saya mewakili organisasi/perusahaan",
+      "label": "Ajukan Kerja Sama",
+      "linkText": "Hubungi kami →",
+      "url": "mailto:gica.taichung@gmail.com"
+    },
+    {
+      "audience": "Saya ingin mendukung perubahan jangka panjang",
+      "label": "Dukung GICA",
+      "linkText": "Tentang donasi →",
+      "url": "https://gica.org.tw/"
+    }
+  ],
+  "contact": {
+    "organization": "GICA — Asosiasi Peduli Internasional Indonesia Taichung",
+    "tagline": "Mendampingi teman-teman Indonesia di Taiwan untuk belajar, menjalani kehidupan, dan bertumbuh, sambil meneruskan kekuatan di dalam komunitas.",
+    "email": "gica.taichung@gmail.com",
+    "websiteLabel": "Situs GICA",
+    "websiteUrl": "https://gica.org.tw/"
+  }
+}
