@@ -66,7 +66,13 @@
       "alt": "Siswa menerima sertifikat dan medali di atas panggung"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "title": "Video GICA (2)",
+      "url": "https://youtu.be/ppwtNJXlu8Q?is=nH1bIyT8ee-IjfI1",
+      "description": "Lebih banyak dokumentasi kegiatan, kebersamaan, dan pendampingan GICA bersama teman-teman Indonesia."
+    }
+  ],
   "ctas": [
     {
       "audience": "Saya teman Indonesia",

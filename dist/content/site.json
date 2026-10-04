@@ -66,7 +66,13 @@
       "alt": "學員在舞台上領取獎狀與獎牌"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "title": "GICA 影音紀錄（二）",
+      "url": "https://youtu.be/ppwtNJXlu8Q?is=nH1bIyT8ee-IjfI1",
+      "description": "更多 GICA 與印尼朋友的活動、交流與陪伴紀錄。"
+    }
+  ],
   "ctas": [
     {
       "audience": "我是印尼朋友",
