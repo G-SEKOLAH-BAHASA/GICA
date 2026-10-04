@@ -99,5 +99,15 @@
     "email": "gica.taichung@gmail.com",
     "websiteLabel": "Situs GICA",
     "websiteUrl": "https://gica.org.tw/"
+  },
+  "social": {
+    "youtube": {
+      "label": "Kunjungi YouTube GICA",
+      "url": "https://youtube.com/@gicasinta2020?si=NmzvMwq3fJyAHSgr"
+    },
+    "facebook": {
+      "label": "Ikuti GICA di Facebook",
+      "url": "https://www.facebook.com/share/19RSEdw65q/"
+    }
   }
 }
