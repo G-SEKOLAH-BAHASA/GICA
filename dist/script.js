@@ -135,5 +135,5 @@ async function setLanguage(lang, persist=true){
 const languageButton=document.querySelector('.language-toggle');
 languageButton?.addEventListener('click',()=>setLanguage(document.documentElement.lang==='id'?'zh-TW':'id'));
 const savedLanguage=localStorage.getItem('gica-language');
-const initialLanguage=savedLanguage || (navigator.language?.toLowerCase().startsWith('id')?'id':'zh-TW');
+const initialLanguage=savedLanguage || 'id';
 setLanguage(initialLanguage,false);
