@@ -17,133 +17,133 @@ settings:
 
 content:
   - name: site
-    label: GICA 網站內容
+    label: GICA Website Content / GICA 網站內容
     type: file
     path: public/content/site.json
     format: json
     fields:
       - name: seo
-        label: 搜尋與分享資訊
+        label: Search and Sharing / 搜尋與分享資訊
         type: object
         fields:
-          - { name: title, label: 網站標題, type: string, required: true }
-          - { name: description, label: 網站摘要, type: text, required: true }
+          - { name: title, label: Website Title / 網站標題, type: string, required: true }
+          - { name: description, label: Website Description / 網站摘要, type: text, required: true }
       - name: home
-        label: 首頁主視覺
+        label: Homepage Hero / 首頁主視覺
         type: object
         fields:
-          - { name: eyebrow, label: 小標, type: string }
-          - { name: title, label: 主標題, type: string, required: true }
-          - { name: lead, label: 首頁介紹, type: text, required: true }
-          - { name: note, label: 補充短句, type: string }
-          - { name: image, label: 主視覺圖片, type: image, required: true }
-          - { name: imageAlt, label: 圖片替代文字, type: string, required: true, description: 請描述照片內容，供視障讀者使用。 }
+          - { name: eyebrow, label: Eyebrow / 小標, type: string }
+          - { name: title, label: Main Heading / 主標題, type: string, required: true }
+          - { name: lead, label: Homepage Introduction / 首頁介紹, type: text, required: true }
+          - { name: note, label: Supporting Note / 補充短句, type: string }
+          - { name: image, label: Hero Image / 主視覺圖片, type: image, required: true }
+          - { name: imageAlt, label: Image Alt Text / 圖片替代文字, type: string, required: true, description: Describe the photo for readers using screen readers. / 請描述照片內容，供視障讀者使用。 }
           - name: primaryCta
-            label: 主要按鈕
+            label: Primary Button / 主要按鈕
             type: object
             fields:
-              - { name: label, label: 按鈕文字, type: string }
-              - { name: url, label: 網址, type: string }
+              - { name: label, label: Button Text / 按鈕文字, type: string }
+              - { name: url, label: URL / 網址, type: string }
           - name: secondaryCta
-            label: 次要按鈕
+            label: Secondary Button / 次要按鈕
             type: object
             fields:
-              - { name: label, label: 按鈕文字, type: string }
-              - { name: url, label: 網址, type: string }
+              - { name: label, label: Button Text / 按鈕文字, type: string }
+              - { name: url, label: URL / 網址, type: string }
       - name: about
-        label: 關於 GICA
+        label: About GICA / 關於 GICA
         type: object
         fields:
-          - { name: eyebrow, label: 小標, type: string }
-          - { name: title, label: 標題, type: string }
-          - { name: description, label: 介紹, type: text }
+          - { name: eyebrow, label: Eyebrow / 小標, type: string }
+          - { name: title, label: Title / 標題, type: string }
+          - { name: description, label: Description / 介紹, type: text }
       - name: school
-        label: Bahasa 語言學校
+        label: BAHASA Language School / Bahasa 語言學校
         type: object
         fields:
-          - { name: eyebrow, label: 小標, type: string }
-          - { name: title, label: 標題, type: string }
-          - { name: description, label: 介紹, type: text }
+          - { name: eyebrow, label: Eyebrow / 小標, type: string }
+          - { name: title, label: Title / 標題, type: string }
+          - { name: description, label: Description / 介紹, type: text }
       - name: care
-        label: 全人關懷
+        label: Whole-person Care / 全人關懷
         type: object
         fields:
-          - { name: eyebrow, label: 小標, type: string }
-          - { name: title, label: 標題, type: string }
-          - { name: description, label: 介紹, type: text }
+          - { name: eyebrow, label: Eyebrow / 小標, type: string }
+          - { name: title, label: Title / 標題, type: string }
+          - { name: description, label: Description / 介紹, type: text }
       - name: featuredStory
-        label: 精選學員故事
+        label: Featured Student Story / 精選學員故事
         type: object
         fields:
-          - { name: eyebrow, label: 小標, type: string }
-          - { name: title, label: 標題, type: string }
-          - { name: quote, label: 引言, type: text }
-          - { name: summary, label: 故事摘要, type: text, description: 只能放已去識別化且取得公開授權的內容。 }
-          - { name: image, label: 圖片, type: image }
-          - { name: imageAlt, label: 圖片替代文字, type: string }
-          - { name: privacyNote, label: 隱私與授權註記, type: text }
+          - { name: eyebrow, label: Eyebrow / 小標, type: string }
+          - { name: title, label: Title / 標題, type: string }
+          - { name: quote, label: Quote / 引言, type: text }
+          - { name: summary, label: Story Summary / 故事摘要, type: text, description: Use only anonymized content with permission for publication. / 只能放已去識別化且取得公開授權的內容。 }
+          - { name: image, label: Image / 圖片, type: image }
+          - { name: imageAlt, label: Image Alt Text / 圖片替代文字, type: string }
+          - { name: privacyNote, label: Privacy and Consent Note / 隱私與授權註記, type: text }
       - name: news
-        label: 最新活動／消息
+        label: Activities and News / 最新活動／消息
         type: object
         list:
           collapsible: { collapsed: true, summary: "{title}" }
         fields:
-          - { name: title, label: 標題, type: string, required: true }
-          - { name: date, label: 日期, type: date, required: true }
-          - { name: summary, label: 摘要, type: text }
-          - { name: image, label: 圖片, type: image }
-          - { name: url, label: 詳細連結, type: string }
+          - { name: title, label: Title / 標題, type: string, required: true }
+          - { name: date, label: Date / 日期, type: date, required: true }
+          - { name: summary, label: Summary / 摘要, type: text }
+          - { name: image, label: Image / 圖片, type: image }
+          - { name: url, label: Read More URL / 詳細連結, type: string }
       - name: gallery
-        label: 照片集
+        label: Photo Gallery / 照片集
         type: object
         list:
           collapsible: { collapsed: true, summary: "{title}" }
         fields:
-          - { name: title, label: 標題, type: string }
-          - { name: caption, label: 說明, type: string }
-          - { name: image, label: 圖片, type: image, required: true }
-          - { name: alt, label: 圖片替代文字, type: string, required: true }
+          - { name: title, label: Title / 標題, type: string }
+          - { name: caption, label: Description / 說明, type: string }
+          - { name: image, label: Image / 圖片, type: image, required: true }
+          - { name: alt, label: Image Alt Text / 圖片替代文字, type: string, required: true }
       - name: videos
-        label: 影片
+        label: Videos / 影片
         type: object
         list:
           collapsible: { collapsed: true, summary: "{title}" }
         fields:
-          - { name: title, label: 標題, type: string, required: true }
-          - { name: url, label: YouTube 網址, type: string, required: true, description: 請貼 YouTube 網址，不要上傳大型影片檔。 }
-          - { name: description, label: 說明, type: text }
+          - { name: title, label: Title / 標題, type: string, required: true }
+          - { name: url, label: YouTube URL / YouTube 網址, type: string, required: true, description: Paste a YouTube URL instead of uploading a large video file. / 請貼 YouTube 網址，不要上傳大型影片檔。 }
+          - { name: description, label: Description / 說明, type: text }
       - name: ctas
-        label: 行動按鈕與連結
+        label: Action Buttons and Links / 行動按鈕與連結
         type: object
         list:
           collapsible: { collapsed: true, summary: "{label}" }
         fields:
-          - { name: audience, label: 對象, type: string }
-          - { name: label, label: 主文字, type: string }
-          - { name: linkText, label: 連結文字, type: string }
-          - { name: url, label: 網址, type: string }
+          - { name: audience, label: Audience / 對象, type: string }
+          - { name: label, label: Main Text / 主文字, type: string }
+          - { name: linkText, label: Link Text / 連結文字, type: string }
+          - { name: url, label: URL / 網址, type: string }
       - name: social
-        label: 社群連結
+        label: Social Links / 社群連結
         type: object
         fields:
           - name: youtube
             label: YouTube
             type: object
             fields:
-              - { name: label, label: 顯示文字, type: string }
-              - { name: url, label: YouTube 頻道網址, type: string }
+              - { name: label, label: Display Text / 顯示文字, type: string }
+              - { name: url, label: YouTube Channel URL / YouTube 頻道網址, type: string }
           - name: facebook
             label: Facebook
             type: object
             fields:
-              - { name: label, label: 顯示文字, type: string }
-              - { name: url, label: Facebook 網址, type: string }
+              - { name: label, label: Display Text / 顯示文字, type: string }
+              - { name: url, label: Facebook URL / Facebook 網址, type: string }
       - name: contact
-        label: 聯絡資訊
+        label: Contact Information / 聯絡資訊
         type: object
         fields:
-          - { name: organization, label: 組織名稱, type: string }
-          - { name: tagline, label: 組織短句, type: text }
-          - { name: email, label: 公開電子郵件, type: string }
-          - { name: websiteLabel, label: 網站連結文字, type: string }
-          - { name: websiteUrl, label: 網站網址, type: string }
+          - { name: organization, label: Organization Name / 組織名稱, type: string }
+          - { name: tagline, label: Organization Tagline / 組織短句, type: text }
+          - { name: email, label: Public Email / 公開電子郵件, type: string }
+          - { name: websiteLabel, label: Website Link Text / 網站連結文字, type: string }
+          - { name: websiteUrl, label: Website URL / 網站網址, type: string }
